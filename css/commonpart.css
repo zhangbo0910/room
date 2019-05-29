@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 0.42rem;
+  background: #ff8a00;
+  padding: 0 0.23rem 0 0.33rem;
+  overflow: hidden;
+}
+header a:nth-child(1) {
+  display: block;
+  width: 1rem;
+  height: 0.42rem;
+  float: left;
+}
+header a:nth-child(1) img {
+  width: 100%;
+  vertical-align: top;
+  height: 0.42rem;
+}
+header a:nth-child(2),
+header a:nth-child(3) {
+  display: block;
+  width: 0.3rem;
+  height: 0.28rem;
+  float: right;
+  text-align: center;
+  margin: 0.07rem 0.1rem;
+}
+header a:nth-child(2) {
+  background: url("../image/index/xiazai.jpg") no-repeat center center;
+  background-size: 0.28rem 0.28rem;
+}
+header a:nth-child(3) {
+  background: url("../image/index/my.jpg") no-repeat center center;
+  background-size: 0.28rem 0.28rem;
+}
+footer {
+  background: #2f3130;
+  padding: 0 0.1rem;
+  font-size: 0;
+}
+footer .p_h {
+  color: #939494;
+  font-size: 0.14rem;
+  font-weight: bold;
+  padding: 0.14rem 0;
+  border-bottom: 1px solid #3e403f;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  padding: 0 0.15rem;
+}
+footer ul li {
+  flex: 1;
+  height: 0.35rem;
+  padding: 0.15rem 0;
+}
+footer ul li a {
+  text-decoration: none;
+  display: block;
+  padding-left: 0.4rem;
+}
+footer ul li a span {
+  display: block;
+  width: 0.42rem;
+  text-align: center;
+  font-size: 0.12rem;
+  color: #939494;
+}
+footer ul li:nth-child(1) a {
+  background: url("../image/index/apple.png") no-repeat center left;
+  background-size: 0.23rem 0.25rem;
+}
+footer ul li:nth-child(2) a {
+  background: url("../image/index/android.png") no-repeat center left;
+  background-size: 0.23rem 0.25rem;
+}
+footer .p_text {
+  font-size: 0.12rem;
+  color: #939494;
+  line-height: 0.2rem;
+  text-align: center;
+}

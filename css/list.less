@@ -1,0 +1,268 @@
+@r:100rem;
+html,body{
+  width:100%;
+  height: 100%;
+}
+section{
+  background: #f5f5f5;
+  .search-box{
+    font-size: 0;
+    padding: 10/@r 15/@r;
+    .search{
+      border: 1px solid #ccc;
+      border-radius:5/@r;
+      padding: 13/@r 10/@r;
+      background: #ffffff;
+      overflow: hidden;
+      input{
+        width:80%;
+        height: 22/@r;
+        border: none;
+        font-size:16/@r ;
+      }
+      span{
+          float: right;
+          display: block;
+          width:40/@r;
+          height: 22/@r;
+         background: url("../image/SecondHandList/search_03.png") no-repeat center right;
+         background-size: 18/@r 20/@r;
+        i{
+          display:inline-block;
+          height: 22/@r;
+          border: 1px solid #840084;
+        }
+      }
+    }
+  }
+  nav{
+    font-size: 0;
+    .down{
+      padding: 12/@r 0;
+      list-style: none;
+      display: flex;
+      border-top: 1px solid #cccccc;
+      border-bottom: 1px solid #cccccc;
+      background: #ffffff;
+      >li{
+        flex: 1;
+        width:25%;
+        font-size: 16/@r;
+        color: #666666;
+        text-align: center;
+        cursor: pointer;
+        position: relative;
+        .clear{
+          clear: both;
+        }
+        .bgc{
+          width:320/@r;
+          height: 690/@r;
+          background: rgba(0,0,0,.4);
+        }
+        .bgcs{
+          width:320/@r;
+          height:420/@r;
+          background: rgba(0,0,0,.4);
+        }
+        .p2{
+          position: absolute;
+          left:0;
+        }
+        .shade{
+          position: absolute;
+          top: 25/@r;
+          width:320/@r;
+          height: 280/@r;
+          background: #ffffff;
+          display: none;
+          ul{
+            list-style: none;
+            float: left;
+          }
+          li:hover {
+            color: #ff9718;
+          }
+          ul:nth-child(1){
+            width:80/@r;
+            height: 275/@r;
+            background:#f0f0f0;
+            li{
+              padding: 10/@r;
+              border-right: 1px solid #cccccc;
+            }
+            li:nth-child(1){
+              font-size:16/@r;
+              color: #ff9718;
+              background: #ffffff;
+              border: none;
+            }
+            li:nth-child(2){
+              height:215/@r;
+            }
+          }
+          ul:nth-child(2){
+            width:239/@r;
+            li{
+              width:50%;
+              float: left;
+              padding:12/@r 0;
+              font-size: 12px;
+            }
+          }
+        }
+        .shade2{
+          width:280/@r;
+          height: 275/@r;
+          position: absolute;
+          top: 25/@r;
+          left:-80/@r;
+          background: #ffffff;
+          padding: 0 20/@r;
+          list-style: none;
+          display:none;
+          li:last-child{
+            border: none;
+          }
+          li{
+            font-size: 12/@r;
+            text-align: left;
+            padding: 11/@r 0;
+            border-bottom: 1px solid #cccccc;
+          }
+        }
+        .shade3{
+          display: none;
+          width:280/@r;
+          height: 275/@r;
+          position: absolute;
+          top: 25/@r;
+          left:-160/@r;
+          background: #ffffff;
+          padding: 0 20/@r;
+          list-style: none;
+            li:last-child{
+              border-bottom: none;
+              height: 40/@r;
+              background:#ff8a00;
+              padding:0;
+              color: #ffffff;
+              text-align: center;
+              font-size: 14/@r;
+              line-height: 40/@r;
+            }
+            li{
+              font-size: 12/@r;
+              text-align: left;
+              padding: 11/@r 0;
+              border-bottom: 1px solid #cccccc;
+              span{
+                display: inline-block;
+                width:20/@r;
+                height: 20/@r;
+                border: 1px solid #c5c3c3;
+                float: right;
+              }
+              span:hover{
+                background: url("../image/SecondHandList/ok.png") no-repeat center center;
+                border:1px solid #ff8a00 ;
+                background-size: 18/@r 13/@r;
+              }
+            }
+        }
+        .shade4{
+          display: none;
+          width:280/@r;
+          height: 550/@r;
+          position: absolute;
+          top: 25/@r;
+          left:-240/@r;
+          background: #ffffff;
+          padding: 0 20/@r;
+          .tit-t{
+            font-size: 14/@r;
+            text-align: left;
+            margin-top: 20/@r;
+            font-weight: bold;
+          }
+          .box-t{
+            list-style: none;
+            overflow: hidden;
+            padding-bottom: 20/@r;
+            border-bottom: 1px solid #cccccc;
+            li{
+              float: left;
+              width:62/@r;
+              height: 25/@r;
+              text-align: center;
+              line-height: 25/@r;
+              border: 1px solid #cccccc;
+              margin-right: 5/@r;
+              margin-top: 12/@r;
+              font-size: 12/@r;
+            }
+            li:hover{
+              border: 1px solid #ff8a00;
+            }
+          }
+        }
+        i{
+          border-top: 0.06rem solid #ccc;
+          border-right: 0.06rem solid transparent;
+          border-bottom: 0.06rem solid transparent;
+          border-left: 0.06rem solid transparent;
+          position: absolute;
+          top:4/@r;
+          right: 3/@r;
+          transition:transform .5s;
+        }
+      }
+    }
+  }
+  .list{
+    list-style: none;
+    padding: 0 20/@r;
+    :last-child{
+      border: none;
+    }
+      li{
+        font-size: 0;
+        overflow: hidden;
+        padding: 24/@r 0 27/@r 0;
+        border-bottom: 1px solid #ff8a00;
+        a{
+          text-decoration: none;
+          .img1{
+            width: 81/@r;
+            height: 81/@r;
+            float: left;
+            img{
+              width: 81/@r;
+              height: 81/@r;
+            }
+          }
+          .text1{
+            margin-left: 12/@r;
+            float: left;
+            p:nth-child(1){
+              font-size: 14/@r;
+              color: #000000;
+              font-weight: bold;
+            }
+            p:nth-child(2){
+              color: #000000;
+              margin-top: 13/@r;
+              font-size: 13/@r;
+            }
+            p:nth-child(3), p:nth-child(4){
+              font-size: 13/@r;
+              color: #b0b0b0;
+              span{
+                color: #ff8a00;
+              }
+            }
+          }
+        }
+      }
+  }
+}

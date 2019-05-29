@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>找房无忧主页</title>
+    <link rel="stylesheet" href="css/commonpart.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<header>
+    <a href="#">
+        <img src="image/index/logo.jpg" alt="">
+    </a>
+    <a href="#">
+    </a>
+    <a href="register.html">
+
+    </a>
+</header>
+<section>
+    <div class="input">
+        <input type="text" placeholder="请输入小区或商圈名开始找房咯！">
+    </div>
+    <ul class="logo">
+        <li>
+            <a href="list.html"></a>
+            <p>二手房</p>
+        </li>
+        <li>
+            <a href="list.html"></a>
+            <p>新房</p>
+        </li>
+        <li>
+            <a href="list.html"></a>
+            <p>租房</p>
+        </li>
+        <li>
+            <a href="list.html"></a>
+            <p>卖房</p>
+        </li>
+    </ul>
+    <div class="shops">
+        <img src="image/index/banner2.png" alt="">
+    </div>
+    <div class="hot_home">
+        <h3>热门房源</h3>
+        <p>Hot house</p>
+    </div>
+    <ul class="list">
+        <li>
+            <a href="details.html">
+                <div class="img1">
+                    <img src="image/index/img1.jpg" alt="">
+                </div>
+                <div class="text1">
+                    <h3>文化部中间层 一层带...</h3>
+                    <p class="p1">2室1厅96㎡南北<span>1105万</span></p>
+                    <p class="p2">红庙北里<span>14268元/平</span></p>
+                    <span class="dot">学区房</span><span class="dot">独家</span>
+                </div>
+            </a>
+        </li>
+    </ul>
+    <div class="guanzhu">
+        <div class="btn">
+            <a href="javascript:;" class="active">热门关注</a>
+            <a href="javascript:;">友情链接</a>
+        </div>
+        <ul class="er">
+            <li>北京二手房</li>
+            <li>北京找房无忧</li>
+            <li>北京二手房价</li>
+            <li>青年家园</li>
+            <li>海定日租房</li>
+            <li>免税房源</li>
+            <li>朝阳新房</li>
+            <li>满五年唯一免税</li>
+        </ul>
+        <ul class="es">
+            <li>北京1手房</li>
+            <li>北京1房无忧</li>
+            <li>北京1手房价</li>
+            <li>青年1园</li>
+            <li>海定月租房</li>
+            <li>免税1房源</li>
+            <li>朝阳1新房</li>
+            <li>满五年唯1免税</li>
+        </ul>
+    </div>
+</section>
+<footer>
+    <p class="p_h">北京找房无忧 > 首页</p>
+    <ul>
+        <li>
+            <a href="#">
+                <span>iPhone
+                    客户端</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+               <span> Android
+                客户端</span>
+            </a>
+        </li>
+    </ul>
+    <p class="p_text">北京找房无忧房地产经纪公司</p>
+    <p class="p_text">网络经营许可证京ICP备20160812号</p>
+</footer>
+<div class="guanggao">
+    <span class="biao"></span>
+    <div class="tet">
+        <img src="image/index/download.png" alt="">
+        <p><span>找房无忧</span><br>
+        市场行情，一手掌握</p>
+    </div>
+    <div class="bat">免费下载&nbsp;&nbsp;</div>
+</div>
+</body>
+<script src="js/rem.js"></script>
+<script src="js/doT.min.js"></script>
+<script src="js/zepto.js"></script>
+<script src="js/index.js"></script>
+<script id="list" type="text/x-dot-template">
+    {{~it.fangyuan:value:index}}
+    <li>
+        <a href="details.html">
+            <div class="img1">
+                <img src="{{=value.src}}" alt="">
+            </div>
+            <div class="text1">
+                <h3>{{=value.title}}</h3>
+                <p class="p1">{{=value.chaoxiang}}<span>{{=value.jia}}</span></p>
+                <p class="p2">{{=value.dizhi}}<span>{{=value.pingfang}}</span></p>
+                <span class="dot">{{=value.tedian[0]}}</span><span class="dot">{{=value.tedian[1]}}</span>
+            </div>
+        </a>
+    </li>
+    {{~}}
+</script>
+</html>

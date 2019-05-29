@@ -1,0 +1,86 @@
+@r:100rem;
+*{
+  margin: 0;
+  padding:0;
+}
+header{
+  height: 42/@r;
+  background: #ff8a00;
+  padding:0 23/@r  0 33/@r;
+  overflow: hidden;
+  a:nth-child(1){
+    display: block;
+    width:100/@r;
+    height: 42/@r;
+    float: left;
+    img{
+      width:100%;
+      vertical-align: top;
+      height: 42/@r;
+    }
+  }
+  a:nth-child(2),a:nth-child(3){
+    display: block;
+    width:30/@r;
+    height: 28/@r;
+    float: right;
+    text-align: center;
+    margin: 7/@r 10/@r;
+  }
+  a:nth-child(2){
+    background: url("../image/index/xiazai.jpg") no-repeat center center;
+    background-size:28/@r  28/@r;
+  }
+  a:nth-child(3){
+    background: url("../image/index/my.jpg") no-repeat center center;
+    background-size:28/@r  28/@r;
+  }
+}
+footer{
+  background: #2f3130;
+  padding: 0 10/@r;
+  font-size: 0;
+  .p_h{
+    color: #939494;
+    font-size: 14/@r;
+    font-weight: bold;
+    padding: 14/@r 0;
+    border-bottom: 1px solid #3e403f;
+  }
+  ul{
+    list-style: none;
+    display: flex;
+    padding: 0  15/@r;
+    li{
+      flex: 1;
+      height: 35/@r;
+      padding: 15/@r 0;
+      a{
+        text-decoration: none;
+        display: block;
+        padding-left:40/@r;
+        span{
+          display: block;
+          width:42/@r;
+          text-align: center;
+          font-size: 12/@r;
+          color: #939494;
+        }
+      }
+    }
+    li:nth-child(1) a{
+      background: url("../image/index/apple.png") no-repeat center left;
+      background-size: 23/@r 25/@r;
+    }
+    li:nth-child(2) a{
+      background: url("../image/index/android.png") no-repeat center left;
+      background-size: 23/@r 25/@r;
+    }
+  }
+  .p_text{
+    font-size: 12/@r;
+    color: #939494;
+    line-height:20/@r;
+    text-align: center;
+  }
+}

@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.box {
+  width: 100%;
+  height: 100%;
+  background: #f5f5f5;
+}
+.box .hend {
+  height: 1.85rem;
+  overflow: hidden;
+  background: url("../image/my/bg1.png") no-repeat center center;
+  border-bottom: 1px solid #ff0000;
+}
+.box .hend a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.12rem;
+  display: block;
+  padding-top: 0.25rem;
+  height: 0.15rem;
+  width: 0.35rem;
+  text-align: center;
+  float: right;
+  margin: 0.1rem 0.06rem;
+}
+.box .hend a:nth-child(2) {
+  background: url("../image/my/urse.png") no-repeat center top;
+  background-size: 0.2rem 0.2rem;
+}
+.box .hend a:nth-child(1) {
+  background: url("../image/my/down.png") no-repeat center top;
+  background-size: 0.2rem 0.2rem;
+}
+.box .tit-box {
+  margin-top: 0.6rem;
+}
+.box .tit-box div {
+  width: 0.52rem;
+  height: 0.52rem;
+  background: url("../image/my/urse2.png") no-repeat center center;
+  background-size: 0.52rem 0.52rem;
+  border-radius: 50%;
+  margin: auto;
+}
+.box .tit-box span {
+  display: block;
+  width: 0.66rem;
+  text-align: center;
+  border: 1px solid #ffffff;
+  font-size: 0.12rem;
+  color: #ffffff;
+  padding: 0.1rem 0;
+  margin: 0.15rem auto;
+  cursor: pointer;
+}
+.box ul {
+  margin-top: 0.1rem;
+  list-style: none;
+  padding: 0 0.2rem;
+  background: #ffffff;
+}
+.box ul li {
+  text-indent: 0.22rem;
+  border-bottom: 1px solid #dcdcdc;
+  font-size: 0.12rem;
+  padding: 0.19rem 0;
+  color: #666666;
+}
+.box ul li:nth-child(1) {
+  background: url("../image/my/icon1.png") no-repeat center left, url("../image/my/right.png") no-repeat center right;
+  background-size: 0.15rem 0.15rem, 0.07rem 0.15rem;
+}
+.box ul li:nth-child(2) {
+  background: url("../image/my/icon2.png") no-repeat center left, url("../image/my/right.png") no-repeat center right;
+  background-size: 0.15rem 0.15rem, 0.07rem 0.15rem;
+}
+.box ul li:nth-child(3) {
+  background: url("../image/my/icon3.png") no-repeat center left, url("../image/my/right.png") no-repeat center right;
+  background-size: 0.15rem 0.15rem, 0.07rem 0.15rem;
+}
+.box ul li:nth-child(4) {
+  background: url("../image/my/icon4.png") no-repeat center left, url("../image/my/right.png") no-repeat center right;
+  background-size: 0.15rem 0.15rem, 0.07rem 0.15rem;
+}
+.denglu {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.4);
+}
+.denglu span {
+  float: right;
+  display: block;
+  width: 0.3rem;
+  height: 0.3rem;
+  background: red;
+  color: #ffffff;
+  font-size: 0.25rem;
+  text-align: center;
+  line-height: 0.3rem;
+}
+.denglu section {
+  margin-top: 1rem;
+  padding: 0.3rem 0.18rem;
+  background: #fafafa;
+}
+.denglu section div {
+  font-size: 0.16rem;
+  color: #ff8a00;
+  margin-bottom: 0.2rem;
+  text-align: center;
+}
+.denglu section div input {
+  height: 0.3rem;
+  width: 70%;
+}
+.denglu section div p {
+  line-height: 0.2rem;
+  font-size: 0.12rem;
+  color: black;
+  text-align: left;
+  display: none;
+}
+.denglu section div button {
+  width: 1.7rem;
+  font-size: 0.18rem;
+  color: #ffffff;
+  background: #ff8a00;
+  border: none;
+  padding: 0.05rem 0.1rem;
+}

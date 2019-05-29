@@ -1,0 +1,270 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+section {
+  background: #f5f5f5;
+}
+section .search-box {
+  font-size: 0;
+  padding: 0.1rem 0.15rem;
+}
+section .search-box .search {
+  border: 1px solid #ccc;
+  border-radius: 0.05rem;
+  padding: 0.13rem 0.1rem;
+  background: #ffffff;
+  overflow: hidden;
+}
+section .search-box .search input {
+  width: 80%;
+  height: 0.22rem;
+  border: none;
+  font-size: 0.16rem;
+}
+section .search-box .search span {
+  float: right;
+  display: block;
+  width: 0.4rem;
+  height: 0.22rem;
+  background: url("../image/SecondHandList/search_03.png") no-repeat center right;
+  background-size: 0.18rem 0.2rem;
+}
+section .search-box .search span i {
+  display: inline-block;
+  height: 0.22rem;
+  border: 1px solid #840084;
+}
+section nav {
+  font-size: 0;
+}
+section nav .down {
+  padding: 0.12rem 0;
+  list-style: none;
+  display: flex;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  background: #ffffff;
+}
+section nav .down > li {
+  flex: 1;
+  width: 25%;
+  font-size: 0.16rem;
+  color: #666666;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+section nav .down > li .clear {
+  clear: both;
+}
+section nav .down > li .bgc {
+  width: 3.2rem;
+  height: 6.9rem;
+  background: rgba(0, 0, 0, 0.4);
+}
+section nav .down > li .bgcs {
+  width: 3.2rem;
+  height: 4.2rem;
+  background: rgba(0, 0, 0, 0.4);
+}
+section nav .down > li .p2 {
+  position: absolute;
+  left: 0;
+}
+section nav .down > li .shade {
+  position: absolute;
+  top: 0.25rem;
+  width: 3.2rem;
+  height: 2.8rem;
+  background: #ffffff;
+  display: none;
+}
+section nav .down > li .shade ul {
+  list-style: none;
+  float: left;
+}
+section nav .down > li .shade li:hover {
+  color: #ff9718;
+}
+section nav .down > li .shade ul:nth-child(1) {
+  width: 0.8rem;
+  height: 2.75rem;
+  background: #f0f0f0;
+}
+section nav .down > li .shade ul:nth-child(1) li {
+  padding: 0.1rem;
+  border-right: 1px solid #cccccc;
+}
+section nav .down > li .shade ul:nth-child(1) li:nth-child(1) {
+  font-size: 0.16rem;
+  color: #ff9718;
+  background: #ffffff;
+  border: none;
+}
+section nav .down > li .shade ul:nth-child(1) li:nth-child(2) {
+  height: 2.15rem;
+}
+section nav .down > li .shade ul:nth-child(2) {
+  width: 2.39rem;
+}
+section nav .down > li .shade ul:nth-child(2) li {
+  width: 50%;
+  float: left;
+  padding: 0.12rem 0;
+  font-size: 12px;
+}
+section nav .down > li .shade2 {
+  width: 2.8rem;
+  height: 2.75rem;
+  position: absolute;
+  top: 0.25rem;
+  left: -0.8rem;
+  background: #ffffff;
+  padding: 0 0.2rem;
+  list-style: none;
+  display: none;
+}
+section nav .down > li .shade2 li:last-child {
+  border: none;
+}
+section nav .down > li .shade2 li {
+  font-size: 0.12rem;
+  text-align: left;
+  padding: 0.11rem 0;
+  border-bottom: 1px solid #cccccc;
+}
+section nav .down > li .shade3 {
+  display: none;
+  width: 2.8rem;
+  height: 2.75rem;
+  position: absolute;
+  top: 0.25rem;
+  left: -1.6rem;
+  background: #ffffff;
+  padding: 0 0.2rem;
+  list-style: none;
+}
+section nav .down > li .shade3 li:last-child {
+  border-bottom: none;
+  height: 0.4rem;
+  background: #ff8a00;
+  padding: 0;
+  color: #ffffff;
+  text-align: center;
+  font-size: 0.14rem;
+  line-height: 0.4rem;
+}
+section nav .down > li .shade3 li {
+  font-size: 0.12rem;
+  text-align: left;
+  padding: 0.11rem 0;
+  border-bottom: 1px solid #cccccc;
+}
+section nav .down > li .shade3 li span {
+  display: inline-block;
+  width: 0.2rem;
+  height: 0.2rem;
+  border: 1px solid #c5c3c3;
+  float: right;
+}
+section nav .down > li .shade3 li span:hover {
+  background: url("../image/SecondHandList/ok.png") no-repeat center center;
+  border: 1px solid #ff8a00 ;
+  background-size: 0.18rem 0.13rem;
+}
+section nav .down > li .shade4 {
+  display: none;
+  width: 2.8rem;
+  height: 5.5rem;
+  position: absolute;
+  top: 0.25rem;
+  left: -2.4rem;
+  background: #ffffff;
+  padding: 0 0.2rem;
+}
+section nav .down > li .shade4 .tit-t {
+  font-size: 0.14rem;
+  text-align: left;
+  margin-top: 0.2rem;
+  font-weight: bold;
+}
+section nav .down > li .shade4 .box-t {
+  list-style: none;
+  overflow: hidden;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid #cccccc;
+}
+section nav .down > li .shade4 .box-t li {
+  float: left;
+  width: 0.62rem;
+  height: 0.25rem;
+  text-align: center;
+  line-height: 0.25rem;
+  border: 1px solid #cccccc;
+  margin-right: 0.05rem;
+  margin-top: 0.12rem;
+  font-size: 0.12rem;
+}
+section nav .down > li .shade4 .box-t li:hover {
+  border: 1px solid #ff8a00;
+}
+section nav .down > li i {
+  border-top: 0.06rem solid #ccc;
+  border-right: 0.06rem solid transparent;
+  border-bottom: 0.06rem solid transparent;
+  border-left: 0.06rem solid transparent;
+  position: absolute;
+  top: 0.04rem;
+  right: 0.03rem;
+  transition: transform .5s;
+}
+section .list {
+  list-style: none;
+  padding: 0 0.2rem;
+}
+section .list :last-child {
+  border: none;
+}
+section .list li {
+  font-size: 0;
+  overflow: hidden;
+  padding: 0.24rem 0 0.27rem 0;
+  border-bottom: 1px solid #ff8a00;
+}
+section .list li a {
+  text-decoration: none;
+}
+section .list li a .img1 {
+  width: 0.81rem;
+  height: 0.81rem;
+  float: left;
+}
+section .list li a .img1 img {
+  width: 0.81rem;
+  height: 0.81rem;
+}
+section .list li a .text1 {
+  margin-left: 0.12rem;
+  float: left;
+}
+section .list li a .text1 p:nth-child(1) {
+  font-size: 0.14rem;
+  color: #000000;
+  font-weight: bold;
+}
+section .list li a .text1 p:nth-child(2) {
+  color: #000000;
+  margin-top: 0.13rem;
+  font-size: 0.13rem;
+}
+section .list li a .text1 p:nth-child(3),
+section .list li a .text1 p:nth-child(4) {
+  font-size: 0.13rem;
+  color: #b0b0b0;
+}
+section .list li a .text1 p:nth-child(3) span,
+section .list li a .text1 p:nth-child(4) span {
+  color: #ff8a00;
+}

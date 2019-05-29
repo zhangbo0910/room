@@ -1,0 +1,31 @@
+{
+  "fangyuan": [
+    {
+      "src":"./image/index/img1.jpg",
+      "title":"文化部中间层 一层带...",
+      "chaoxiang":"2室1厅96㎡南北",
+      "jia":"1105万",
+      "dizhi":"红庙北里",
+      "pingfang":"14268元/平",
+      "tedian":["学区房","独家"]
+    },
+    {
+      "src":"./image/index/img2.png",
+      "title":"光大水墨  精装复式...",
+      "chaoxiang":"2室1厅96㎡南北",
+      "jia":"280万",
+      "dizhi":"光大水墨",
+      "pingfang":"14268元/平",
+      "tedian":["学区房","独家","满五唯一"]
+    },
+    {
+      "src":"./image/index/img3.png",
+      "title":"南北通透两居  精装修...",
+      "chaoxiang":"2室1厅96㎡南北",
+      "jia":"320万",
+      "dizhi":"北京新天地",
+      "pingfang":"14268元/平",
+      "tedian":["地铁房","独家"]
+    }
+  ]
+}

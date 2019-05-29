@@ -1,0 +1,29 @@
+section {
+  padding: 0.3rem 0.18rem;
+  background: #fafafa;
+}
+section div {
+  font-size: 0.16rem;
+  color: #ff8a00;
+  margin-bottom: 0.2rem;
+  text-align: center;
+}
+section div input {
+  height: 0.3rem;
+  width: 70%;
+}
+section div p {
+  line-height: 0.2rem;
+  font-size: 0.12rem;
+  color: black;
+  text-align: left;
+  display: none;
+}
+section div button {
+  width: 1.7rem;
+  font-size: 0.18rem;
+  color: #ffffff;
+  background: #ff8a00;
+  border: none;
+  padding: 0.05rem 0.1rem;
+}

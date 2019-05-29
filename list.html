@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>找房无忧</title>
+    <link rel="stylesheet" href="css/commonpart.css">
+    <link rel="stylesheet" href="css/list.css">
+</head>
+<body>
+<header>
+    <a href="index.html">
+        <img src="image/index/logo.jpg" alt="">
+    </a>
+    <a href="#">
+    </a>
+    <a href="register.html">
+    </a>
+</header>
+<section>
+    <div class="search-box">
+        <div class="search">
+            <input type="text" placeholder="请输入小区名或商圈名称">
+            <span><i></i></span>
+        </div>
+    </div>
+    <nav>
+        <ul class="down">
+            <li><span>区域</span><i></i>
+                    <div class="shade show">
+                        <ul>
+                            <li>区域</li>
+                            <li>地铁</li>
+                        </ul>
+                        <ul>
+                            <li>区域</li>
+                            <li>地铁</li>
+                            <li>地铁</li>
+                            <li>地铁</li>
+                            <li>地铁</li>
+                            <li>地铁</li>
+                            <li>地铁</li>
+                            <li>区域</li>
+                            <li>地铁</li>
+                            <li>地铁</li>
+                            <li>地铁</li>
+                            <li>地铁</li>
+                            <li>地铁</li>
+                            <li>地铁</li>
+                        </ul>
+                        <div class="clear"></div>
+                        <div class="bgc"></div>
+                </div>
+            </li>
+            <li><span>价格</span><i></i>
+                <ul class="shade2 show">
+                    <li>不限</li>
+                    <li>100万以下</li>
+                    <li>100万-150万</li>
+                    <li>150万-200万</li>
+                    <li>200万-250万</li>
+                    <li>250万-300万</li>
+                    <li>自定义价格</li>
+                    <div class="clear "></div>
+                    <div class="bgc p2"></div>
+                </ul>
+            </li>
+            <li><span>房型</span><i></i>
+                <ul class="shade3 show">
+                    <li>不限<span></span></li>
+                    <li>1室<span></span></li>
+                    <li>2室<span></span></li>
+                    <li>3室<span></span> </li>
+                    <li>4室<span></span></li>
+                    <li>5室<span></span></li>
+                    <li>确定</li>
+                    <div class="clear "></div>
+                    <div class="bgc p2"></div>
+                </ul>
+            </li>
+            <li><span>更多</span><i></i>
+            <div class="shade4 show">
+                <p class="tit-t">区域</p>
+                <ul class="box-t">
+                    <li>南</li>
+                    <li>南北</li>
+                    <li>东</li>
+                    <li>西</li>
+                    <li>北</li>
+                </ul>
+                <p class="tit-t">面积（平方）</p>
+                <ul class="box-t">
+                    <li>50以下</li>
+                    <li>50-70</li>
+                    <li>70-90</li>
+                    <li>90-110</li>
+                    <li>110-130</li>
+                </ul>
+                <p class="tit-t">标签</p>
+                <ul class="box-t">
+                    <li>学区房</li>
+                    <li>地铁房</li>
+                    <li>不限购</li>
+                    <li>满两年</li>
+                    <li>满五唯一</li>
+                    <li>降价</li>
+                    <li>新上</li>
+                    <li>独家</li>
+                    <li>有钥匙</li>
+                </ul>
+                <p class="tit-t">楼龄</p>
+                <ul class="box-t">
+                   <li>5年以内</li>
+                   <li>10年以内</li>
+                   <li>10-20年</li>
+                   <li>20年以上</li>
+                </ul>
+                <div class="clear "></div>
+                <div class="bgcs p2"></div>
+            </div>
+            </li>
+        </ul>
+    </nav>
+    <ul class="list">
+        <li>
+            <a href="#">
+                <div class="img1">
+                    <img src="image/SecondHandList/img1.png" alt="">
+                </div>
+                <div class="text1">
+                    <p>西便门外大街2室1厅89平</p>
+                    <p>南北 高楼/6层</p>
+                    <p>签约价格:13244元/平<span>1105万</span></p>
+                    <p>签约日期:2015年11月10日</p>
+                </div>
+            </a>
+        </li>
+    </ul>
+</section>
+<footer>
+    <p class="p_h">北京找房无忧 > 首页</p>
+    <ul>
+        <li>
+            <a href="#">
+                <span>iPhone
+                    客户端</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+               <span> Android
+                客户端</span>
+            </a>
+        </li>
+    </ul>
+    <p class="p_text">北京找房无忧房地产经纪公司</p>
+    <p class="p_text">网络经营许可证京ICP备20160812号</p>
+</footer>
+</body>
+<script src="js/rem.js"></script>
+<script src="js/doT.min.js"></script>
+<script src="js/zepto.js"></script>
+<script src="js/list.js"></script>
+<script id="list" type="text/x-dot-template">
+    {{~it.arr:value:index}}
+    <li>
+        <a href="details.html">
+            <div class="img1">
+                <img src="{{=value.imgs}}" alt="">
+            </div>
+            <div class="text1">
+                <p>{{=value.p1}}</p>
+                <p>{{=value.p2}}</p>
+                <p>{{=value.p3}}<span>{{=value.span}}</span></p>
+                <p>{{=value.p4}}</p>
+            </div>
+        </a>
+    </li>
+    {{~}}
+</script>
+
+</html>
